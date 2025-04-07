@@ -1,0 +1,10 @@
+MapTypes DEFINITIONS ::= BEGIN
+
+  RawPair ::= SEQUENCE {
+	  key UTF8String,
+	  val UTF8String
+  }
+
+  RawPairs ::= SEQUENCE OF RawPair
+
+END
